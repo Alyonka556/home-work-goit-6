@@ -1,0 +1,53 @@
+@media screen and (min-width: 1158px) {
+    .container{
+        max-width: 1158px;
+    } 
+    
+    
+}
+/* Hero */
+
+@media screen and (min-width: 1158px) {
+    .container{
+        max-width: 1158px;
+    } 
+
+    .hero{
+        padding: 188px 0;
+    }
+
+    .hero-title{
+        margin: 0 auto 48px;
+    }   
+}
+/* about title */
+@media screen and (min-width: 1158px) {
+    .container{
+        max-width: 1158px;
+    } 
+
+    .about-title{
+        padding: 120px 0;
+    }
+
+   
+    .inform {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .list-inform {
+        width: calc((100% - 24px) / 4);
+    }
+
+    .company-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .inform-text {
+        font-weight: 400;
+    }
+}
+/* Section team */
