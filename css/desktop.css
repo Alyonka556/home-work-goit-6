@@ -50,4 +50,85 @@
         font-weight: 400;
     }
 }
+
+/* work infom */
+
+@media screen and (min-width: 1158px) {
+    .work-inform {
+      padding: 120px 0;
+    }
+
+    .name-inform{
+        margin-top: 0;
+        color: #2E2F42;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+    
+    .img-work{
+        display: flex;
+        gap: 24px;
+    }
+    
+    .img-list{
+        width: calc((100% - 24px) / 3);
+    }
+}    
+
 /* Section team */
+@media screen and (min-width: 1158px) {
+
+    .container{
+        max-width: 1158px;
+    }
+    
+    .team {
+      padding: 120px 0;
+    }
+
+
+
+    .team-list {
+      flex-wrap: nowrap;
+      gap: 24px;
+    }
+
+
+
+    .work-list-team {
+      width: calc((100%-24px) / 4);
+    }
+}
+
+  /* Section customers */
+
+@media screen and (min-width: 1158px) {
+
+    .container{
+        max-width: 1158px;
+    }
+
+    .customers{
+        padding: 120px 0;
+    }
+
+    .customers-item {
+        gap: 24px;
+    }
+
+    .customers__item{
+        width: calc((100% - 24px) / 6);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    
+}    
+    
+    
