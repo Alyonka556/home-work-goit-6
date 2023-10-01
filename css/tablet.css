@@ -147,7 +147,13 @@
     flex-direction: row;
     gap: 24px;
     }
+
+    .email-footer {
+        width: 264px;
+    }
 }
+
+/* Modal window */
 
 
 
