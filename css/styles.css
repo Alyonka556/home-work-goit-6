@@ -1,41 +1,4 @@
-.body{
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color:#FFFFFF;
-    box-sizing: border-box;
-}
-    
-:root{
-    --brand-color:#434455;
-    --cloud: #F4F4FD;
-    --navy-blue: #2E2F42;
-    --light-slate: #8E8F99;
-    --ocean: #404BBF;
-    --white: #FFF;
-    --color-iris: #4d5ae5;
-    --color-green: #31d0aa;
-    --dairy: #FCFCFC;
-}
-    
-    
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-    
-.list{
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-} 
-    
-.link{
-    text-decoration: none;
-}
-    
-button {
-    cursor: pointer;
-}
+
     
 .page-header{
     border-bottom: 1px solid #e7e9fc;
@@ -164,129 +127,15 @@ button {
     color:#404bbf;  
 }
     
+    
+
+    
+
 
     
 
     
 
-    
-
-    
-
-    
-.company-icon{ 
-}
-    
-.inform-text{
-    color: #434455;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    margin: 0;
-}
-    
-
-    
-
-    
-
-    
-
-    
-.customers-icon{
-}
-    
-    
-    
-    
-.footer{
-    background-color: var(--navy-blue);
-    padding: 100px 0;
-}
-    
-.logo-nav-footer{
-    color: var(--cloud);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-    
-.business-item{
-    color: var(--cloud);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    margin-top: 17.5px;
-    width: 264px;
-}
-    
-.footer-container{
-    display: flex;
-    align-items: baseline;
-}
-    
-.footer-logo{
-    margin-right: 120px;
-    width: 264px;
-}
-    
-.link .logo{
-    display: inline-block;
-    margin-bottom: 17.5px;
-    margin-right: 120px;
-}
-    
-.footer-social {
-}
-    
-.social-text {
-    color: var(--white, #FFF);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-}
-    
-.social-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 16px; 
-}
-    
-.social-icon {
-    width: 40px;
-    height: 40px;
-}
-.social-link {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-iris);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    justify-content: center;
-}
-    
-.footer-icon {
-    fill: var(--cloud); 
-}
-    
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--color-green);
-}
     
 .visually-hidden {
     position: absolute;
@@ -320,9 +169,7 @@ button {
     padding: 32px 0;
 }
     
-.logo-nav-footer{
-    display: inline-block; 
-}
+
     
 .working-team{
     display: block;
@@ -333,26 +180,6 @@ img{
 }
     
 
-
-.footer-subscribe{
-    margin-left: 80px;    
-}
-
-.subscribe-tex{
-margin-bottom: 16px;
-color: var(--white);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-}
-
-.form-modal-footer{
-    display: flex;
-    gap: 24px;
-}
 
 .email-footer{
      width: 264px;
