@@ -209,15 +209,30 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 112px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  background-position: center;
+}
+
+.bg-hero-image {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-mobile-1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bg-hero-image {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/hero/hero-mobile-2x.jpg');
+  }
 }
 
 @media screen and (max-width: 1157px) {

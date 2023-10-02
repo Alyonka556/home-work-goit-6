@@ -29,6 +29,29 @@
 /* Hero */
 
 @media screen and (min-width: 1158px) {
+    .bg-hero-image {
+      width: 100%;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/hero-desktop-1x.jpg');
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .bg-hero-image {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url('../images/hero/hero-desktop-2x.jpg');
+    }
+}
+
+@media screen and (min-width: 1158px) {
 
     .hero{
         padding: 188px 0;
