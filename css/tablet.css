@@ -4,20 +4,42 @@
     }
 }
 
+/* HEADER  */
+
+@media screen and (min-width: 768px) {
+    .contact-menu{
+        color:#434455;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.04em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-bottom: 12px;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .adress-item:first-child {
+      margin-bottom: 12px;
+    }
+}
+
+
+
 /* Hero */
 
 @media screen and (min-width: 768px) {
-    .container{
-        max-width: 768px;
-    } 
-
     .hero-title{
         font-size: 56px;
         line-height: 1.07;
         max-width: 496px;
         margin: 0 auto 36px;
     }
-
 }
 /* about title */   
 @media screen and (min-width: 768px){
@@ -48,20 +70,14 @@
     .work-inform {
       display: none;
     }
-  }
+}
 
 /* Section team */
 @media screen and (max-width: 1157px) {
     .team {
       padding: 96px 0;
     }
-}
-
-@media screen and (min-width: 768px){
-    .container{
-        max-width: 768px;
-    }
-}    
+}       
 
 @media screen and (min-width: 768px) {
     .team-list {
@@ -110,15 +126,12 @@
 
 @media screen and (min-width: 768px) {
     .footer {
-      padding: 96px 0;
+      padding: 96px 108px;
       background-color: var(--navy-blue);
     }
 }
 
-@media screen and (min-width: 768px){
-    .container{
-        max-width: 768px;
-    }
+@media screen and (min-width: 768px) {
 
     .footer-container {
         text-align: start;
@@ -154,6 +167,22 @@
 }
 
 /* Modal window */
+
+@media screen and (min-width: 768px) {
+    .modal {
+      max-width: 408px;
+    }
+}
+
+/* Mobil menu */
+
+.mobile-menu .js-open-menu{
+    display: none;
+}
+
+/* Portofolio */
+
+
 
 
 
