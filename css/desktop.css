@@ -78,7 +78,7 @@
         width: calc((100% - 24px) / 4);
     }
 
-    .company-title {
+    .name-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -93,7 +93,7 @@
 
 @media screen and (min-width: 1158px) {
     .work-inform {
-      padding: 120px 0;
+      padding-bottom: 120px;
     }
 
     .name-inform{
@@ -122,9 +122,7 @@
 /* Section team */
 @media screen and (min-width: 1158px) {
     
-    .team {
-      padding: 120px 0;
-    }
+   
 
 
 
@@ -144,9 +142,7 @@
 
 @media screen and (min-width: 1158px) {
 
-    .customers {
-        padding: 120px 0;
-    }
+   
 
     .customers-item {
         gap: 24px;

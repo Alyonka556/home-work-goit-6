@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 21px;
 }
 
-.div{
+.page-header-container{
     display: flex;
 }
 
@@ -78,7 +78,7 @@ align-items: center;
     gap: 40px;
 }
 
-.logo-nav{
+.logo-nav-text{
     color: var(--navy-blue);
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -157,7 +157,7 @@ display: flex;
 gap: 40px;
 }
 
-.adress-menu{
+.contact-menu{
     color:var(--brand-color);
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
@@ -167,8 +167,8 @@ letter-spacing: 0.02em;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress-menu:focus,
-.adress-menu:hover {
+.contact-menu:focus,
+.contact-menu:hover {
 color:#404bbf;
 }
 
