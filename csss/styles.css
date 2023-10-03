@@ -1,104 +1,5 @@
 
-.body{ 
-    font-family: 'Roboto', sans-serif;
-    color: var(--brand-color);
-    background-color:#FFFFFF;
-}
-    
-:root{
-    --brand-color:#434455;
-    --cloud: #F4F4FD;
-    --navy-blue: #2E2F42;
-    --light-slate: #8E8F99;
-    --ocean: #404BBF;
-    --white: #FFF;
-    --color-iris: #4d5ae5;
-    --color-green: #31d0aa;
-}
-    
-.list{
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-} 
 
-.link{
-        text-decoration: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.page-header{
-    border-bottom: 1px solid #e7e9fc;
-    display: flex;
-    padding: 21px;
-}
-
-.page-header-container{
-    display: flex;
-}
-
-.container{
-width: 1158px;
-margin: 0 auto;
-padding: 0 15px;
-}
-    
-.logo{
-    color: var(--color-iris);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px;
-}
-
-.page-nav{
-display: flex;
-align-items: center;
-}
-
-.menu{
-    display: flex;
-    gap: 40px;
-}
-
-.logo-nav-text{
-    color: var(--navy-blue);
-font-family: 'Raleway', sans-serif;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.menu-link{
-    color: var(--navy-blue);
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-padding: 24px 0;
-position: relative;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .menu-link:hover,
 .menu-link:focus {
@@ -140,37 +41,8 @@ left: 0;
 }
 
 /* adress */
-.adress{
-    color:var(--brand-color);
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-font-style: normal;
-margin-left: auto;
 
-}
 
-.list-adress{
-display: flex;
-gap: 40px;
-}
-
-.contact-menu{
-    color:var(--brand-color);
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-menu:focus,
-.contact-menu:hover {
-color:#404bbf;
-}
 
 
 /* section modal */
