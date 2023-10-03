@@ -171,7 +171,7 @@
 
     .footer-logo {
         margin: 0 24px 0 0;
-    }
+    }  
 
     .footer-social {
         margin-top: 0;
@@ -212,7 +212,39 @@
 }
 
 /* Portofolio */
+  /* section modal */
+@media screen and (min-width: 768px) {
+    .section-modal{
+      padding-top: 64px;
+      padding-bottom: 96px;
+    }
 
+
+    .btn-list{
+      justify-content: center;
+      margin-bottom: 64px;
+    }
+
+    .list-work{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 72px;
+      column-gap: 24px;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    .list-information {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .box {
+      width: 356px;
+    }
+}
 
 
 
